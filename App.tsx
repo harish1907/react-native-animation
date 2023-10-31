@@ -1,7 +1,12 @@
 import { View, StyleSheet } from "react-native";
+import ButtonBounce from "./Components/ButtonBounce";
 
 const App = () => {
-  return <View style={styles.container}></View>;
+  return (
+    <View style={styles.container}>
+      <ButtonBounce />
+    </View>
+  );
 };
 
 const styles = StyleSheet.create({
