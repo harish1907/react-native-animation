@@ -1,20 +1,6 @@
-import React from "react";
-import { View, StyleSheet } from "react-native";
-import ImageFlatList from "./Components/ImageFlatList";
+import * as React from "react";
+import { View } from "react-native";
 
-const App = () => {
-  return (
-    <View style={styles.container}>
-      <ImageFlatList />
-    </View>
-  );
+export default () => {
+  return <View style={{ flex: 1, backgroundColor: "#fff" }}></View>;
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#FFF",
-  },
-});
-
-export default App;
